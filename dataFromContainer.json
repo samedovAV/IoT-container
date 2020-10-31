@@ -1,12 +1,1 @@
-[{"dataFromContainer":
-      {"daysRemaining":"3",
-        "weight":"500",
-        "time":"2020-10-27T11:30:30.634Z",
-        "userId":"1"}},
-  {"dataFromContainer":
-      {"daysRemaining":"2",
-        "weight":"500",
-        "time":"2020-10-28T11:30:30.634Z",
-        "userId":"1"}
-  }
-]
+[{"dataFromContainer":{"weight":"500","time":"2020-10-27T11:30:30.634Z","userId":"1"}}]

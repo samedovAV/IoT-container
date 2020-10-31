@@ -19,7 +19,7 @@ public class JSONParserIoT {
     public static void parseJSON() throws IOException {
         JSONParser jsonParser = new JSONParser();
 
-        FileWriter file = new FileWriter("dataFromContainer.txt");
+        FileWriter file = new FileWriter("dataFromContainer(JSON).txt");
 
         try (FileReader reader = new FileReader("dataFromContainer.json")) {
             Object obj = jsonParser.parse(reader);
@@ -42,13 +42,11 @@ public class JSONParserIoT {
 
         JSONObject dataFromContainerObject = (JSONObject) data.get("dataFromContainer");
 
-        String daysRemaining = (String) dataFromContainerObject.get("daysRemaining");
         String weight = (String) dataFromContainerObject.get("weight");
         String time = (String) dataFromContainerObject.get("time");
         String userId = (String) dataFromContainerObject.get("userId");
 
         try {
-            file.write(daysRemaining + "\n");
             file.write(weight + "\n");
             file.write(time + "\n");
             file.write(userId + "\n");

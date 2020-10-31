@@ -1,0 +1,5 @@
+Root element: container
+Current element: dataFromContainer
+Time: 2020-10-29T11:30:30.634Z
+User id: 2
+Weight: 100
