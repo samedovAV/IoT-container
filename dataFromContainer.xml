@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><container><dataFromContainer time="2020-10-29T11:30:30.634Z"><userId>2</userId><weight>100</weight></dataFromContainer></container>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<container>
+    <dataFromContainer time="2020-10-29T11:30:30.634Z">
+        <userId>2</userId>
+        <weight>100</weight>
+    </dataFromContainer>
+</container>
